@@ -1,0 +1,33 @@
+.container-fluid {
+    background-color: white;
+    .row {
+        .col {
+            ul {
+                list-style: none;
+            }
+        }
+    }
+}
+
+.container {
+    .row {
+        .col.pt-5.d-flex.justify-content-center {
+            .d-flex.justify-content-center.flex-column.w-25 {
+                .mybutton {
+                    width: 100%;
+                    background-color: black;
+                    color: white;
+                    margin-bottom: 4px;
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+}
+
+.mybutton1 {
+    background-color: black;
+    color: white;
+    margin-bottom: 4px;
+    border-radius: 0;
+}

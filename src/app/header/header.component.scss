@@ -1,0 +1,19 @@
+.theader.container-fluid {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    .mat-toolbar-row {
+        .head {
+            font-size: 40px;
+        }
+        .demo {
+            button {
+                &:hover {
+                    border-bottom: 1px solid red;
+                    color: red;
+                    background-color: none;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}

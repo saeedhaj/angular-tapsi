@@ -1,0 +1,58 @@
+.container-fluid {
+    .row {
+        &.top-section {
+            background-image: url("/assets/img/banner.jpg");
+            padding-top: 75px;
+        }
+        .col.text-center {
+            h1 {
+                padding-top: 70px;
+                font-size: 50px;
+                color: white;
+            }
+            h5 {
+                margin-top: 40px;
+                font-size: 28px;
+                color: white;
+            }
+        }
+        .col.justify-content-center.d-flex {
+            // padding-bottom: 65px;
+        }
+        .row.flex-column.justify-content-center.pt-4 {
+            padding-bottom: 100px;
+        }
+    }
+    .tapsi {
+        background-color: white;
+        font-size: 14px;
+        color: black;
+        width: 100%;
+        margin-bottom: 10px;
+        &:hover {
+            background-color: red;
+            color: white;
+        }
+    }
+    .container {
+        background-color: white;
+        margin-top: 100px;
+        margin-top: 50px;
+        text-align: right;
+    }
+    .para {
+        font-weight: bold;
+        padding-right: 10px;
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    .row.whatis-tapsi.flex-column {
+        background-image: url("/assets/img/car.png"), url("/assets/img/back-car.png");
+        background-repeat: no-repeat, no-repeat;
+        background-repeat: no-repeat, no-repeat;
+        background-position: 190px 82px, 8px 0;
+        background-size: 120px 210px, 100% 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

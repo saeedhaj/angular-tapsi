@@ -1,0 +1,61 @@
+.container-fluid {
+    .col {
+        position: relative;
+        .demo {
+            position: absolute;
+            right: 31%;
+            top: 60px;
+            h1,
+            h3 {
+                font-weight: bold;
+                color: white;
+            }
+        }
+    }
+    form {
+        margin-top: 10px;
+        padding-right: 50px;
+    }
+}
+
+.mybutton {
+    width: 65%;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    margin-top: 25px;
+    border-radius: 0%;
+    display: block;
+    padding: 5px;
+}
+
+.container {
+    .row {
+        .col {
+            padding-right: 95px;
+            // .text-left {}
+            .w-75 {
+                p {
+                    // font-size: 20px;
+                }
+            }
+        }
+        .mybutton2 {
+            width: 25%;
+            background-color: black;
+            color: white;
+            font-size: 19px;
+            border-radius: 0%;
+            padding: 9px;
+            margin-top: 35px;
+            &:hover {
+                color: blue;
+            }
+        }
+    }
+}
+
+table {
+    border-spacing: 12px 0;
+    border-collapse: separate !important;
+}

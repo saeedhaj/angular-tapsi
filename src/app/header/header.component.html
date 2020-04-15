@@ -1,0 +1,19 @@
+<div class="theader container-fluid">
+    <mat-toolbar style="background-color: unset !important;">
+        <mat-toolbar-row class="mat-toolbar-row d-flex justify-content-between">
+            <button mat-button>
+                    <span [routerLink]="['/']" routerLinkActive="router-link-active"   class="head">تپسی</span>
+             </button>
+            <div class="demo">
+                <button mat-button>نسخه وب</button>
+                <button mat-button>فرصت های شغلی</button>
+                <button [routerLink]="['/contact']" routerLinkActive="router-link-active" mat-button>تماس با ما</button>
+                <button [routerLink]="['/corporate']" routerLinkActive="router-link-active" mat-button>پنل سازمانی</button>
+                <button mat-button>بلاگ</button>
+            </div>
+            <div class="btn">
+                <button mat-raised-button color="warn">دانلود تپسی</button>
+            </div>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</div>
